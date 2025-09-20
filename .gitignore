@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+venv-*/
+ENV/
+.venv/
+
+# Django databases
+db.sqlite3
+*_service.sqlite3
+
+# Django files
+*.log
+*.pot
+*.pyc
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+*.env
+
+# PyCharm project settings
+.idea/
+*.iml
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Testing & coverage
+.coverage
+*.cover
+htmlcov/
+.tox/
+.pytest_cache/
+.mypy_cache/
