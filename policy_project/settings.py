@@ -100,7 +100,6 @@ AUTH_PASSWORD_VALIDATORS = [
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": [
         "policies.authentication.ExternalJWTAuthentication",
-        # "policies.authentication.ServiceTokenAuthentication",
     ],
     "DEFAULT_PERMISSION_CLASSES": [
         "policies.permissions.IsJWTAuthenticated",

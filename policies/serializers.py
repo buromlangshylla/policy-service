@@ -4,8 +4,8 @@ from rest_framework import serializers
 from .models import Policy, PremiumPayment
 
 
-CUSTOMER_SERVICE_URL = config("CUSTOMER_SERVICE_URL", default="http://localhost:8001")
-AGENT_SERVICE_URL = config("AGENT_SERVICE_URL", default="http://localhost:8002")
+CUSTOMER_SERVICE_URL = config("CUSTOMER_SERVICE_URL", default="http://localhost:8002")
+AGENT_SERVICE_URL = config("AGENT_SERVICE_URL", default="http://localhost:8000")
 
 
 class PremiumPaymentSerializer(serializers.ModelSerializer):
